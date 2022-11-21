@@ -18,10 +18,12 @@ var recipe = {
 console.log(recipe.title);
 console.log("Servings:" + recipe.servings);
 console.log("Ingredients:");
-// :)
-for (var i = 0; i < recipe.ingredients.length; i++) {
-    console.log(recipe.ingredients[i]);
-}
+console.log(recipe.title);
+console.log("Servings:" + recipe.servings);
+console.log("Ingredients:");
+console.log(recipe.ingredients[0]);
+console.log(recipe.ingredients[1]);
+console.log(recipe.ingredients[2]);
 
 
 // Домашна за низи:
